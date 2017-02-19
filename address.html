@@ -107,11 +107,11 @@
             <div class="shipping-method-wrap">
                 <div class="shipping-method">
                     <ul>
-                        <li >
+                        <li v-bind:class = "{'check':shippingMethods == 1}" @click="shippingMethods = 1">
                             <div class="name">标准配送</div>
                             <div class="price">Free</div>
                         </li>
-                        <li >
+                        <li  v-bind:class = "{'check':shippingMethods == 2}" @click="shippingMethods = 2">
                             <div class="name">高级配送</div>
                             <div class="price">180</div>
                         </li>

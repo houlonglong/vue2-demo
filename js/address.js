@@ -3,7 +3,8 @@ new Vue({
 	data:{
 		addressList:[],
 		limitNum:3,
-		currentIndex:0
+		currentIndex:0,
+		shippingMethods:1
 		
 	},
 	mounted:function(){
